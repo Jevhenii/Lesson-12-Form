@@ -1,0 +1,247 @@
+body{
+
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+body{
+	background-image:url(img/Background.jpg);
+	background-size:cover;
+}
+a{
+	
+	text-decoration:underline;
+}
+.container{
+	background-color:  #ffffff;
+	width: 336px;
+	height: 532px;
+	position: absolute;
+  	left: 0;
+  	bottom:0px;
+  	top: 0;
+  	right: 0;
+  	margin: auto;
+  	padding-left:24px;
+  	padding-right:24px;
+}
+.head{
+
+	position: absolute;
+  	left: 0;
+  	bottom:460px;
+  	top:0;
+  	right: 0;
+  	margin: auto;
+  	width: 336px;
+	height: 72px;
+	padding-left:24px;
+  	padding-right:24px;
+  	background-color:#f8edaf;
+}
+.content{
+
+	position: absolute;
+  	left: 0;
+  	bottom:460px;
+  	top:532px;
+  	right: 0;
+  	margin: auto;
+  	width: 336px;
+	height: 460px;
+	padding-left:24px;
+  	padding-right:24px;
+  	background-color:#ffffff;
+}
+.username{
+	width:100px;
+}
+.select {
+border-style: solid;
+border-width: 2px;
+border-color:  #82d4e7;
+box-sizing: border-box;
+background-color:  #ffffff;
+width: 288px;
+height: 44px;
+font-family: Montserrat;
+color:  #727f82;
+font-size: 20px;
+font-weight: 400;
+  
+  
+}
+
+.legend{
+	font-family: Montserrat;
+	color:  #9eabad;
+	font-size: 17px;
+	font-weight: 400;
+}
+ a{
+ 	font-family: Montserrat;
+	color:  #9eabad;
+	font-size: 17px;
+	font-weight: 400;
+ }
+ .year{
+ 	border-style: solid;
+	border-width: 2px;
+	border-color:  #bac8cb;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 96px;
+	height: 44px;
+	font-family: Montserrat;
+	color:  #727f82;
+	font-size: 17px;
+	font-weight: 400;
+	text-align: left;
+ }
+
+ .mounth{
+ 	border-style: solid;
+	border-width: 2px;
+	border-color:  #bac8cb;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 160px;
+	height: 44px;
+	font-family: Montserrat;
+	color:  #727f82;
+	font-size: 17px;
+	font-weight: 400;
+	
+ }
+.fat{
+	margin-top:30px;
+	
+}
+
+.password{
+
+	border-style: solid;
+	border-width: 2px;
+	border-color:  #bac8cb;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 96px;
+	height: 44px;	
+}
+.example{
+	font-family: Montserrat;
+	color:  #9eabad;
+	font-size: 12px;
+	font-weight: 400;
+}
+.Pay{
+	background-color:  #25b86a;
+	width: 288px;
+	height: 48px;
+	font-family: Montserrat;
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top:30px;
+}
+.cancel{
+	font-family: Montserrat;
+	color:  #9eabad;
+	font-size: 12px;
+	font-weight: 400;
+	margin-left:100px;
+		margin-top:10px;
+}
+.cw{
+	margin-top:30px;
+}
+.card{
+	margin-top:30px;
+}
+
+.harold{
+	font-family: Montserrat;
+	color:  #6e7f7b;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: left;
+	margin-top:20px;
+	position:absolute;
+}
+.your{
+	font-family: Montserrat;
+	color:  #a6a28d;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: left;
+	margin-top:20px;
+	position:absolute;
+}
+.bacs{
+	font-family: Montserrat;
+	color:  #637570;
+	font-size: 36px;
+	font-weight: 400;
+	margin-left:240px;
+	padding-bottom:70px;
+	position:absolute;
+}
+.boss{
+	position:relative;
+}
